@@ -1,1 +1,40 @@
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+}
+
+
+.multi-display-with-header .ng-dropdown-panel .ng-dropdown-header {
+  background-color: #f8f8f8;
+  display: grid;
+  grid-column-gap: 0.3333333333333333rem;
+  padding: 0.5333333333rem 2.2rem 0.5333333333rem 0.666667rem;
+}
+
+.multi-display-with-header .ng-dropdown-panel .ng-dropdown-header:last-child {
+  justify-content: flex-end;
+}
+
+.multi-display-with-header .ng-dropdown-panel .ng-dropdown-panel-items .ng-option {
+  display: grid;
+  grid-column-gap: 0.3333333333333333rem;
+}
+
+.multi-display-with-header .ng-dropdown-panel .ng-dropdown-panel-items .ng-option:last-child {
+  justify-content: flex-end;
+}
+
+.select-groups .ng-dropdown-panel .ng-dropdown-header {
+  grid-template-columns: 2.133333333333333rem 1fr 1fr;
+}
+
+.select-groups .ng-dropdown-panel-items .ng-option {
+  grid-template-columns: 2.133333333333333rem 1fr 1fr;
+}
